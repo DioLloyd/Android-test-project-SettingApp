@@ -16,9 +16,22 @@ class SettingTests {
 
     @Test
     fun inputTextInYourSignatureFrame() {
+        val text = "ololo"
         SettingPage()
             .clickYourSignatureFrame()
-            .inputTextInYourSignatureWindow()
+            .inputTextInYourSignatureWindow(text)
+            .clickOkInYourSignatureWindow()
+            .checkTextYourSignatureFrame(text)
+    }
+
+    @Test
+    fun switchDefaultReplyAction() {
+        val reply = "Reply"
+        val replyToAll = "Reply to all"
+        SettingPage()
+            .clickDefaultReplyAction()
+            .choiceDefaultReplyAction(replyToAll)
+            .checkDefaultReplyAction(replyToAll)
     }
 
 }

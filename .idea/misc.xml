@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/.gradle/caches/transforms-3/3fdceb8ad5de51ae9ddbda278c1f933e/transformed/preference-1.1.1/res/layout/preference_material.xml" value="0.5" />
+        <entry key="..\:/Users/user/.gradle/caches/transforms-3/3fdceb8ad5de51ae9ddbda278c1f933e/transformed/preference-1.1.1/res/layout/preference_widget_switch_compat.xml" value="0.1203125" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
